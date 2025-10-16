@@ -1,3 +1,5 @@
+#include "zmk-helpers/helper.h"
+#include "zmk-helpers/unicode-chars/german.dtsi"
 #include "macros.dtsi"
 
 / {
