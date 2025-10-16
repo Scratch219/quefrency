@@ -4,63 +4,153 @@
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N2 &kp N2 &kp N3 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N2
+            >, <
+                &kp N2
+            >, <
+                &kp N3
+            >;
         };
 
         ue_macro: ue_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N2 &kp N5 &kp N2 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N2
+            >, <
+                &kp N5
+            >, <
+                &kp N2
+            >;
         };
 
         ue_upper_macro: ue_upper_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N2 &kp N2 &kp N0 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N2
+            >, <
+                &kp N2
+            >, <
+                &kp N0
+            >;
         };
 
         oe_macro: oe_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N2 &kp N4 &kp N6 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N2
+            >, <
+                &kp N4
+            >, <
+                &kp N6
+            >;
         };
 
         oe_upper_macro: oe_upper_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N2 &kp N1 &kp N4 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N2
+            >, <
+                &kp N1
+            >, <
+                &kp N4
+            >;
         };
 
         ae_macro: ae_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N2 &kp N2 &kp N8 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N2
+            >, <
+                &kp N2
+            >, <
+                &kp N8
+            >;
         };
 
         ae_upper_macro: ae_upper_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N1 &kp N4 &kp N2 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N1
+            >, <
+                &kp N4
+            >, <
+                &kp N2
+            >;
         };
 
         degree_macro: degree_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N1 &kp N7 &kp N6 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N1
+            >, <
+                &kp N7
+            >, <
+                &kp N6
+            >;
         };
 
         tilde_macro: tilde_macro {
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings = < &kp LALT &kp N0 &kp N1 &kp N2 &kp N6 >;
+            bindings = <
+                &kp LALT
+            >, <
+                &kp N0
+            >, <
+                &kp N1
+            >, <
+                &kp N2
+            >, <
+                &kp N6
+            >;
         };
     };
 };
