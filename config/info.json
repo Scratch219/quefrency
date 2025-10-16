@@ -1,8 +1,8 @@
 {
   "name": "SchrammeSplit",
   "layouts": {
-    "LAYOUT": [
-      [
+    "LAYOUT": {
+      "layout": [
         { "x": 0, "y": 0, "label": "ESC" },
         { "x": 1, "y": 0, "label": "1" },
         { "x": 2, "y": 0, "label": "2" },
@@ -18,9 +18,8 @@
         { "x": 13, "y": 0, "label": "=" },
         { "x": 14, "y": 0, "label": "BKSPC" },
         { "x": 15, "y": 0, "label": "DEL" },
-        { "x": 16, "y": 0, "label": "PAUSE_BREAK" }
-      ],
-      [
+        { "x": 16, "y": 0, "label": "PAUSE_BREAK" },
+
         { "x": 0, "y": 1, "label": "TAB" },
         { "x": 1, "y": 1, "label": "Q" },
         { "x": 2, "y": 1, "label": "W" },
@@ -36,9 +35,8 @@
         { "x": 13, "y": 1, "label": "<>" },
         { "x": 14, "y": 1, "label": "´#" },
         { "x": 15, "y": 1, "label": "+*" },
-        { "x": 16, "y": 1, "label": "END" }
-      ],
-      [
+        { "x": 16, "y": 1, "label": "END" },
+
         { "x": 0, "y": 2, "label": "LCTRL" },
         { "x": 1, "y": 2, "label": "A" },
         { "x": 2, "y": 2, "label": "S" },
@@ -53,9 +51,8 @@
         { "x": 12, "y": 2, "label": "Ä" },
         { "x": 13, "y": 2, "label": "ENTER" },
         { "x": 14, "y": 2, "label": "^°" },
-        { "x": 15, "y": 2, "label": "PGUP" }
-      ],
-      [
+        { "x": 15, "y": 2, "label": "PGUP" },
+
         { "x": 0, "y": 3, "label": "LSHIFT" },
         { "x": 1, "y": 3, "label": "Y" },
         { "x": 2, "y": 3, "label": "X" },
@@ -70,9 +67,8 @@
         { "x": 12, "y": 3, "label": "LCTRL" },
         { "x": 13, "y": 3, "label": "UP" },
         { "x": 14, "y": 3, "label": "INSERT" },
-        { "x": 15, "y": 3, "label": "PGDN" }
-      ],
-      [
+        { "x": 15, "y": 3, "label": "PGDN" },
+
         { "x": 0, "y": 4, "label": "LCTRL" },
         { "x": 1, "y": 4, "label": "FN" },
         { "x": 2, "y": 4, "label": "SPACE" },
@@ -84,6 +80,6 @@
         { "x": 9, "y": 4, "label": "RIGHT" },
         { "x": 10, "y": 4, "label": "PSCRN" }
       ]
-    ]
+    }
   }
 }
