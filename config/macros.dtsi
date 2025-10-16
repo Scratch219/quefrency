@@ -1,4 +1,22 @@
 / {
+    aliases {
+        macro_press = &macro_press_behavior;
+        macro_tap = &macro_tap_behavior;
+        macro_release = &macro_release_behavior;
+    };
+
+    macro_press_behavior: macro_press_behavior {
+        compatible = "zmk,behavior-macro-press";
+    };
+
+    macro_tap_behavior: macro_tap_behavior {
+        compatible = "zmk,behavior-macro-tap";
+    };
+
+    macro_release_behavior: macro_release_behavior {
+        compatible = "zmk,behavior-macro-release";
+    };
+
     macros {
         eszett_macro: eszett_macro {
             compatible = "zmk,behavior-macro";
