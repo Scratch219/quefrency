@@ -1,7 +1,10 @@
 / {
+    compatible = "zmk,keymap";
+
     macros {
         eszett_macro: eszett_macro {
             compatible = "zmk,behavior-macro";
+            label = "ß Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -13,6 +16,7 @@
 
         ue_macro: ue_macro {
             compatible = "zmk,behavior-macro";
+            label = "ü Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -24,6 +28,7 @@
 
         ue_upper_macro: ue_upper_macro {
             compatible = "zmk,behavior-macro";
+            label = "Ü Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -35,6 +40,7 @@
 
         oe_macro: oe_macro {
             compatible = "zmk,behavior-macro";
+            label = "ö Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -46,6 +52,7 @@
 
         oe_upper_macro: oe_upper_macro {
             compatible = "zmk,behavior-macro";
+            label = "Ö Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -57,6 +64,7 @@
 
         ae_macro: ae_macro {
             compatible = "zmk,behavior-macro";
+            label = "ä Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -68,6 +76,7 @@
 
         ae_upper_macro: ae_upper_macro {
             compatible = "zmk,behavior-macro";
+            label = "Ä Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -79,6 +88,7 @@
 
         degree_macro: degree_macro {
             compatible = "zmk,behavior-macro";
+            label = "° Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -90,6 +100,7 @@
 
         tilde_macro: tilde_macro {
             compatible = "zmk,behavior-macro";
+            label = "~ Macro";
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
@@ -101,10 +112,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap";
-
         default_layer {
-            display-name = "Default Layer";
             bindings = <
                 &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &eszett_macro &kp EQUAL &kp BSPC &kp DEL &kp PAUSE_BREAK
                 &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Z &kp U &kp I &kp O &kp P &ue_macro &kp LTGT &kp HASH &kp PLUS &kp END
@@ -115,7 +123,6 @@
         };
 
         fn_layer {
-            display-name = "Fn Layer";
             bindings = <
                 &bt BT_CLR &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &bt BT_CLR
                 &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
