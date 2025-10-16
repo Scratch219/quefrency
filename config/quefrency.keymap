@@ -1,9 +1,6 @@
 #include "zmk-helpers/unicode-chars/german.dtsi"
-#include <dt-bindings/zmk/keys.h>
-
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/34.h"
-#include "zmk-helpers/unicode-chars/german.dtsi"
 
 #define ___ &trans
 
