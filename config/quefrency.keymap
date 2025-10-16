@@ -5,8 +5,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N3
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N3
                 &macro_release &kp LALT
             >;
         };
@@ -16,8 +16,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N5 &kp KP_N2
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N5 &kp KP_N2
                 &macro_release &kp LALT
             >;
         };
@@ -27,8 +27,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N0
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N0
                 &macro_release &kp LALT
             >;
         };
@@ -38,8 +38,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N6
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N6
                 &macro_release &kp LALT
             >;
         };
@@ -49,8 +49,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N4
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N4
                 &macro_release &kp LALT
             >;
         };
@@ -60,8 +60,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N8
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N8
                 &macro_release &kp LALT
             >;
         };
@@ -71,8 +71,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N2
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N2
                 &macro_release &kp LALT
             >;
         };
@@ -82,8 +82,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N6
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N6
                 &macro_release &kp LALT
             >;
         };
@@ -93,8 +93,8 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = <
-                &macro_press   &kp LALT
-                &macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N6
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N6
                 &macro_release &kp LALT
             >;
         };
