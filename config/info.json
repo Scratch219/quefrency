@@ -1,8 +1,7 @@
 {
-  "keyboard_name": "quefrency",
-  "manufacturer": "Scratch219",
-  "url": "https://github.com/Scratch219/quefrency",
-  "maintainer": "Scratch219",
+  "keyboard_name": "SchrammeSplit",
+  "url": "https://github.com/yourusername/quefrency",
+  "maintainer": "Aleksandar Schramme",
   "layouts": {
     "LAYOUT": {
       "layout": [
