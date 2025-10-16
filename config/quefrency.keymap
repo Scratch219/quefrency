@@ -13,7 +13,16 @@
         compatible = "zmk,combos";
 
         Esszet {
-            bindings = <&none>;
+            bindings 
+                = wait-ms = <40>;
+                    tap-ms = <40>;
+                    bindings
+                    = <&macro_press   &kp LALT>
+                    , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N3>
+                    , <&macro_release &kp LALT>
+                    ;
+
+;
             key-positions = <11>;
             layers = <0>;
         };
