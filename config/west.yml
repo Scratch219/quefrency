@@ -10,5 +10,8 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-unicode
+      url: https://github.com/Scratch219/zmk-unicode
+      path: modules/zmk-unicode
   self:
     path: config
