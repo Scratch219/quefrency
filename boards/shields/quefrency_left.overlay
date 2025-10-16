@@ -1,0 +1,26 @@
+/ {
+    chosen {
+        zmk,matrix = &key_matrix;
+    };
+
+    key_matrix: matrix {
+        compatible = "zmk,matrix";
+        label = "Quefrency Left Matrix";
+
+        rows = <5>;
+        cols = <6>;
+
+        row-gpios = <&gpio0 0 (GPIO_ACTIVE_LOW)>,
+                    <&gpio0 1 (GPIO_ACTIVE_LOW)>,
+                    <&gpio0 2 (GPIO_ACTIVE_LOW)>,
+                    <&gpio0 3 (GPIO_ACTIVE_LOW)>,
+                    <&gpio0 4 (GPIO_ACTIVE_LOW)>;
+
+        col-gpios = <&gpio1 0 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 1 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 2 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 3 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 4 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 5 (GPIO_ACTIVE_LOW)>;
+    };
+};
