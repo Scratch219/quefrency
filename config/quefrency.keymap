@@ -1,6 +1,11 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
 #include "zmk-helpers/helper.h"
+#include "zmk-helpers/key-labels/34.h"
 #include "zmk-helpers/unicode-chars/german.dtsi"
-#include "macros.dtsi"
+
+#define ___ &trans
 
 / {
     keymap {
@@ -8,9 +13,9 @@
 
         default_layer {
             bindings = <
-                &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &eszett_macro &kp EQUAL &kp BSPC &kp DEL &kp PAUSE_BREAK
-                &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Z &kp U &kp I &kp O &kp P &ue_macro &kp LTGT &kp HASH &kp PLUS &kp END
-                &kp LCTRL &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &oe_macro &ae_macro &kp RET &degree_macro &kp PG_UP
+                &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &de_eszett &kp EQUAL &kp BSPC &kp DEL &kp PAUSE_BREAK
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Z &kp U &kp I &kp O &kp P &de_ue &kp LTGT &kp HASH &kp PLUS &kp END
+                &kp LCTRL &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &de_oe &de_ae &kp RET &kp PG_UP &euro_sign
                 &kp LSHFT &kp Y &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp MINUS &kp LCTRL &kp UP &kp INSERT &kp PG_DN
                 &kp LCTRL &mo 1 &kp SPACE &kp SPACE &mo 1 &kp K_CONTEXT_MENU &kp LEFT &kp DOWN &kp RIGHT &kp PSCRN
             >;
